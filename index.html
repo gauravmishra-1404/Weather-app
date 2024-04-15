@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-app</title>
+    <link rel="stylesheet" href = "style.css">
+</head>
+<body>
+    <nav>
+        <div class="form">
+            <input type="text" class="cityField" style="color:black" placeholder="Enter your city name..."/>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="weather">
+            <div class="temp">
+                <h1><span id="t">--</span><span>&#8451</span></h1>
+            </div>
+            <div class="time_location">
+                <p>Location</p>
+                <span>Random time and Date</span>
+            </div>
+            <div class="aqi">
+                <p><span id="a">--</span><span id="aq">AQI</span></p>
+            </div>
+            <div class="weather_condition">
+                <p><img src="./img/weather.jpg" alt=""></p>
+                <span>Condition</span>
+            </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>

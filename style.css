@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Economica&family=Grape+Nuts&family=Roboto:wght@100;300;400;700;900&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  color: black;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  background-image: url("./img/animated.jpg");
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather{
+  height: 60%;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding : 1px;
+}
+
+.weather:hover {
+  border: 2px solid rgb(70, 84, 96);
+} 
+
+#t {
+  font-size: xx-large;
+  padding: 3px;
+  height: 10%;
+}
+
+.temp:hover{
+  border: 3px solid black;
+  font-weight: bolder;
+}
+
+.time_location:hover{
+  border: 3px solid black;
+  font-weight: bolder;
+}
+
+.time_location{
+  height:20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#aq{
+  font-size: medium;
+  margin-left: 3px;
+}
+
+.aqi:hover{
+  border: 3px solid black;
+  font-weight: bolder;
+}
+
+.weather p {
+  font-size: 2rem;
+}
+
+.weather span {
+  font-size: large;
+}
+
+.weather_condition{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather_condition:hover{
+  border: 3px solid black;
+    font-weight: bolder;
+}
+
+nav{
+  width: 100%;
+  height : 100px;
+  padding: 1rem 0;
+  position: absolute;
+  box-sizing: border-box;
+  background-color:rgba(151, 120, 154, 0.704);
+  background-image: url("./img/images.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form{
+  width:90%;
+  height: 90%;
+  margin-top: 10px;
+}
+
+.cityField{
+  width: 90%;
+  font-size: 1.1em;
+  font-weight: bold;
+  color:rgb(3, 46, 44);
+  border: none;
+  padding:0 0 0 1px;
+  border-radius: 3px;
+  background-color: transparent;
+  padding-top: 5px;
+}

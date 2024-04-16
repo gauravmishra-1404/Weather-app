@@ -81,3 +81,4 @@ function updateUI(temp, air,locationName, time, emoji, conditionName) {
     dateField.innerText = time
 }
 
+fetchData("Jabalpur");
